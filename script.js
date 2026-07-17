@@ -1,4 +1,6 @@
-// Animasi scroll
+// =========================
+// ANIMASI SCROLL
+// =========================
 const reveals = document.querySelectorAll('.reveal');
 
 function revealOnScroll() {
@@ -15,7 +17,10 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 revealOnScroll();
 
-// Efek navbar saat scroll
+
+// =========================
+// EFEK NAVBAR SAAT SCROLL
+// =========================
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
@@ -24,8 +29,12 @@ window.addEventListener('scroll', () => {
   } else {
     navbar.style.background = 'rgba(15,23,42,0.8)';
   }
+});
 
-  // Toggle hamburger menu
+
+// =========================
+// TOGGLE HAMBURGER MENU
+// =========================
 const toggle = document.getElementById('menu-toggle');
 const navMenu = document.getElementById('nav-menu');
 
