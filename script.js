@@ -39,4 +39,3 @@ document.querySelectorAll('#nav-menu a').forEach(link => {
     navMenu.classList.remove('active');
   });
 });
-});
